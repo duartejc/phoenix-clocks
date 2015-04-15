@@ -1,0 +1,22 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-sm-12">
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="exampleInputName2">Select Timezone</label>
+          <select id="tz" class="form-control">
+            <%= for item <- @tzs do %>
+              <option value=<%= item %>><%= item %></option>
+            <% end %>
+          </select>
+          <button id="add" type="button" class="btn btn-default">Add</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="clocks" class="row">
+
+  </div>
+
+</div>
