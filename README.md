@@ -6,6 +6,7 @@
 To start your new Phoenix application you have to:
 
 1. Clone this repo, then cd to the new directory
+2. Install node modules with `npm install`
 2. Install dependencies with `mix deps.get`
 3. Start Phoenix router with `mix phoenix.server`
 
